@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+		
+	<link href="css/styles.css" rel="stylesheet">
+	<script src="js/vue.js"></script>	
+	
+</head>
+<body >
+	
+	<div class="main-area" id="app">
+		<div class="full-height position-static row">
+			
+			<div class="col-md-1 d-none d-md-block" style="background: #B3D4E0;">
+		
+				<div class="container full-height position-static">
+					<section class="left-section full-height">
+						<div class="mt-5">
+							<div class="text-center mb-5">
+								<img src="assets/img/l2.png" style="width: 50px;">
+							</div>
+							<div class="text-center">
+								<ul class="footer-icons">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-google"></i></a></li>
+								</ul>
+								
+							</div>
+						</div>
+					</section>	
+				</div>
+		
+			</div><!-- left-section -->
+		
+			<div class="col-sm-11" :style="{backgroundColor:color}">
+				<div class="container">
+					<ul class="nav nav-tabs mt-5" >
+						<li class="nav-li" :style="{color:textColor}"><a href="#">Home</a></li>
+						<li class="nav-li" :style="{color:textColor}"><a href="#">Categories </a></li>
+						<li class="nav-li" :style="{color:textColor}"><a href="#">Checkout </a></li>
+						<li class="nav-li" :style="{color:textColor}"><a href="#">Account</a></li>
+						<li class="ml-auto nav-li">
+							<a href="#"> <i class="fa fa-shopping-cart fa-2x"></i></a>
+						</li>
+					</ul>
+					
+					<div class="row product">
+						<div class="col-md-5 col-md-offset-0"><img class="img-responsive" src="assets/img/skate.png" height="100">
+							<h1 class="item-title d-none d-md-block" :style="{color:textColor}">Adidas Skaking shoe&nbsp; </h1>
+						</div>
+						<div class="col-md-7">
+							<section class="full-height">
+									
+								<div class="display-table">
+									<div class="display-table-cell">
+										<div class="main-content">
+											<div>
+												<h3 class="item-title" :style="{color:textColor}">Adidas Skaking shoe 	
+													<small class="pull-right item-rating pt-3">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</small>
+												</h3>
+											</div>
+											<p class="item-range mb-3" :style="{color:textColor}">Category: Sports and Dress</p>
+											<h5 class="item-price" :style="{color:textColor}">$149.90 </h5>
+											<p class="item-details mt-5" :style="{color:textColor}">
+												Sed mollis, urna eu tempus facilisis, diam tellus aliquam tortor, et vestibulum ante quam non justo. Nullam luctus rutrum mattis. Maecenas in pharetra mi, vel mollis odio. Morbi non mauris massa. fon
+												et vestibulum ante quam non justo. Nullam luctus rutrum mattis. Maecenas in pharetra mi, vel mollis odio. Morbi non mauris massa. fon
+												et vestibulum ante quam non justo. Nullam luctus rutrum mattis. Maecenas in pharetra mi, vel mollis odio. Morbi non mauris massa. fon
+											</p>
+											<div class="form-group mt-5">
+												<label class="control-label pull-left" :style="{color:textColor}">Select Color: </label>
+												<div class="list-color">
+													<ul class="list-inline">
+														<li class="color-first color-list" @click="blue()"> </li>
+														<li class="list-second color-list" @click="pink()"> </li>
+														<li class="list-third color-list" @click="yellow()"> </li>
+														<li class="list-fourth color-list" @click="grey()"> </li>
+													</ul>
+												</div>
+											</div>
+											<div class="form-group mt-3">
+												<label class="control-label" :style="{color:textColor}">Choose size: </label>
+												<select class="select-size" :style="{backgroundColor:color, color:textColor}" >
+													<option value="" selected="">Chose Your Size</option>
+													<option value="xxl">XXL</option>
+													<option value="xl">XL</option>
+													<option value="m">M</option>
+													<option value="s">S</option>
+												</select>
+											</div>
+											<div class="mb-5">
+												<button class="btn btn-primary btn-lg mb-5 mt-5 form-control" type="button">Add to cart</button>
+											</div>
+										</div><!-- main-content -->
+									</div><!-- display-table-cell -->
+								</div><!-- display-table -->	
+						
+							</section>
+							
+						</div>
+					</div>
+				</div>
+				
+			</div><!-- right-section -->
+		
+		</div><!-- container -->
+	</div><!-- main-area -->
+	<script src="js/app.js"></script>
+</body>
+</html>

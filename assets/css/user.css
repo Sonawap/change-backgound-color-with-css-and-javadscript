@@ -1,0 +1,167 @@
+.breadcrumb{
+  text-align:center;
+  background-color:transparent;
+  border-bottom:1px solid #eee;
+  padding-top:12px;
+  padding-bottom:12px;
+  margin-bottom:40px;
+}
+
+nav.navbar.navbar-default{
+  margin-bottom:0px;
+}
+
+@media (min-width:992px) {
+  .product h2{
+    margin-top:0;
+  }
+}
+
+li.nav-li a:hover {
+  background: transparent;
+}
+
+.navbar .navbar-brand{
+  font-size:24px;
+  line-height:18px;
+}
+
+.reviewer-name{
+  margin-right:10px;
+}
+
+.site-footer{
+  padding:20px 0;
+  text-align:center;
+}
+
+@media (min-width:768px) {
+  .site-footer h5{
+    text-align:left;
+  }
+}
+
+.site-footer h5{
+  color:inherit;
+  font-size:16px;
+}
+
+.site-footer .social-icons a:hover{
+  opacity:1;
+}
+
+.site-footer .social-icons a{
+  display:inline-block;
+  width:32px;
+  border:none;
+  font-size:20px;
+  border-radius:50%;
+  margin:4px;
+  color:#fff;
+  text-align:center;
+  background-color:#798FA5;
+  height:32px;
+  opacity:0.8;
+  line-height:32px;
+}
+
+@media (min-width:768px) {
+  .site-footer .social-icons{
+    text-align:right;
+  }
+}
+
+.btn.write-review{
+  float:right;
+  margin-top:-6px;
+}
+
+body{
+  background:#0392BF;
+}
+
+.item-title{
+  color:#fff;
+  font-weight:lighter;
+}
+
+.item-rating{
+  color:#FBEC06;
+}
+
+.item-range{
+  color:rgb(124, 124, 124);
+}
+
+.item-price{
+  color:#fff;
+  font-size-adjust:initial;
+  font-stretch:narrower;
+  font-size:larger;
+  font-weight:lighter;
+}
+
+.btn.btn-primary{
+  background-color:#ED48BA;
+  padding:5px 20px;
+  border-radius:0px;
+}
+
+.item-details{
+  color:#fff;
+  font-weight:400;
+  font-size:small;
+}
+
+.whiteColor{
+  color:#fff;
+}
+
+.select-size{
+  background:rgb(3,146,191);
+  border:1px solid #fff;
+  color:#fff;
+  padding:5px 20px;
+  margin-left:50px;
+}
+
+.color-list{
+  width:30px;
+  height:30px;
+  margin:0px 9px;
+  border-radius:50%;
+  cursor: pointer;
+}
+
+.list-color{
+}
+
+.color-first{
+  margin-left:45PX;
+  background:#20beef;
+}
+
+.list-fourth{
+  background:#88a2ac;
+}
+
+.list-third{
+  background:#f0e002;
+}
+
+.list-second{
+  background:#cc1090;
+}
+
+.nav-tabs{
+  border-bottom:0px;
+}
+
+ul.nav.nav-tabs a{
+  color:#fff;
+}
+
+li.nav-li{
+  padding:0px;
+}
+
